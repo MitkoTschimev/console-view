@@ -1,0 +1,28 @@
+@import "vars.inc.less";
+
+.console-view {
+
+  //body
+  border: @body-border-type @body-border-width @body-border-color;
+  border-radius: @body-border-radius;
+  padding: @body-padding;
+
+
+  //highlighting
+  .highlight {
+    font-weight: bold;
+  }
+
+  .highlight.success {
+    color: @highlight-color-success;
+  }
+
+  .highlight.error {
+    color: @highlight-color-error;
+  }
+
+  .highlight.warn {
+    color: @highlight-color-warn;
+  }
+
+}
