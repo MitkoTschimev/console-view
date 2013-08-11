@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Console View - Event based example</title>
+    <link rel="stylesheet" href="../css/basic.theme.css" type="text/css" />
+    <script src="jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="../lib/jquery.fullscreen.js" type="text/javascript"></script>
+    <script src="../lib/jquery.console.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="console-view"></div>
+
+    <script type="text/javascript">
+
+        $(function() {
+            /**
+             * This example is only working if the file is loaded from a server with the same domain
+             */
+            $("#console-view").consoleView({
+                type: "ajax",
+                interval: 1000,
+                ajax: "ajax-example-message.txt"
+            });
+        });
+    
+    </script>
+</body>
+</html>
