@@ -27,7 +27,9 @@
 
     //highlighting
     .highlight {
-        font-weight: bold;
+        &.success, &.error, &.warn {
+            font-weight: bold;
+        }
 
         &.success {
             color: @highlight_color-success;
