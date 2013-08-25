@@ -37,7 +37,7 @@ How often the console will send a request ( interval in milliseconds )
 Callback function invoked after receiving data from the source.
 Here you can manipulate the data for your own usage.
 
-!Important! The callback function must return an string ( the final message ).
+<b style="color: red;">IMPORTANT!!</b> The callback function must return a string ( the final message ).
 
 ###highlight
 An array of highlight options which are resolved for each received message.
@@ -60,3 +60,8 @@ $('#myConsoleView').consoleView({
     ]
 });
 ```
+
+##Copyright and License
+Copyright 2006-2013 (c) M. Alsup
+
+All versions, present and past, of the jQuery ConsoleView plugin are under the [Apache License 2.0](/LICENSE).
