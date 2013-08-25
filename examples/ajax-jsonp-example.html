@@ -32,8 +32,7 @@
              */
             $("#console-view").consoleView({
                 type: "ajax",
-//                interval: 1000,
-                ajax: {
+                typeOptions: {
                     url: "http://json-time.appspot.com/time.json",
                     dataType: "jsonp"
                 },
