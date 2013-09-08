@@ -62,6 +62,6 @@ $('#myConsoleView').consoleView({
 ```
 
 ##Copyright and License
-Copyright 2006-2013 (c) M. Alsup
+Copyright 2006-2013 (c) Mitko Tschimev
 
 All versions, present and past, of the jQuery ConsoleView plugin are under the [Apache License 2.0](/LICENSE).
