@@ -23,7 +23,10 @@ $('#myConsoleView').consoleView({
 Expected connection type of the response. One of: 'event' or 'ajax'. The type option provides a means for specifying how the console receives the data. The following values are supported:
 
 * 'ajax': The data is received by ajax requests which can be setup by the typeOptions
-* 'event': The data is received by the event "message" ````javascript $mydiv.trigger("message", "some Data"); ````
+* 'event': The data is received by the event "message"
+````javascript
+$mydiv.trigger("message", "some Data");
+````
 
 
 ###typeOptions
