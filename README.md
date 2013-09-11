@@ -24,6 +24,8 @@ Expected connection type of the response. One of: 'event' or 'ajax'. The type op
 
 * 'ajax': The data is received by ajax requests which can be setup by the typeOptions
 * 'event': The data is received by the event "message"
+
+Here an example for the event type:
 ````javascript
 $mydiv.trigger("message", "some Data");
 ````
